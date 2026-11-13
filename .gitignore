@@ -1,0 +1,64 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE 配置
+.idea/
+.vscode/
+
+# Python 缓存与构建产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Node.js 依赖
+node_modules/
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# 本地业务数据
+/data/
+*.[xX][lL][sS]
+*.[xX][lL][sS][xX]
+*.[xX][lL][sS][mM]
+*.[xX][lL][sS][bB]
+*.[cC][sS][vV]
+*.[tT][sS][vV]
+
+# 核对进度文件
+OvertimeKit_核对进度*.json
+
+# Markdown 文档的网页及 PDF 副本
+/README.html
+/README.pdf
+/help/*.html
+/help/*.pdf
+
+# 临时文件、日志及系统缓存
+~$*
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 保留生成的独立看板
+!/output/
+!/output/**
+
+# 测试目录及全部内容纳入版本控制
+# 必须放在末尾，覆盖前面的忽略规则
+!/test/
+!/test/**
